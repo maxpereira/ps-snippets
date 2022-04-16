@@ -1,6 +1,6 @@
 ﻿$files = Get-ChildItem -Path .\files
 $arrFiles = @(,@());
-foreach($file in $files ) {
+foreach($file in $files) {
     $arrFile = $file
     $arrFiles += ,$arrFile;
 }
